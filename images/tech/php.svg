@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" role="img" aria-label="Logotipo PHP">
+  <rect width="96" height="96" rx="18" fill="#51588c"/>
+  <ellipse cx="48" cy="48" rx="34" ry="18" fill="#8993be"/>
+  <text x="48" y="54" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700" fill="#fff">PHP</text>
+</svg>

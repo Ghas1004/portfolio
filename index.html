@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gustavo Henrique | Tecnologia da Informação</title>
+    <meta
+      name="description"
+      content="Portfólio profissional de Gustavo Henrique, com conhecimentos e experiência prática em desenvolvimento de software, JavaScript, PHP, Python, Excel e MySQLi."
+    />
+    <meta name="author" content="Gustavo Henrique" />
+    <meta name="theme-color" content="#0b0f17" />
+    <link rel="icon" href="images/favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Sora:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="site-header" id="topo">
+      <div class="header-inner">
+        <a class="brand" href="#inicio">Gustavo Henrique</a>
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="menu-principal"
+          aria-label="Abrir menu"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <nav id="menu-principal" class="site-nav" aria-label="Navegação principal">
+          <ul>
+            <li><a href="#sobre">Sobre mim</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#contato">Contato</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="conteudo">
+      <section class="hero" id="inicio" aria-labelledby="hero-titulo">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">Portfólio --</p>
+            <h1 id="hero-titulo">Gustavo Henrique</h1>
+            <p class="hero-role">Desenvolvimento de Software | Tecnologia da Informação</p>
+            <p class="hero-text">
+              Desenvolvedor com experiência prática na criação de aplicações e soluções utilizando diferentes tecnologias, com foco em transformar problemas em soluções funcionais e eficientes.
+            </p>
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="#habilidades">Conheça minhas habilidades</a>
+              <a class="btn btn-ghost" href="#contato">Entre em contato</a>
+            </div>
+          </div>
+
+          <div class="hero-visual">
+            <div class="carousel" data-carousel tabindex="0" aria-label="Carrossel de fotografias">
+              <div class="carousel-scene">
+                <div class="carousel-ring" data-carousel-ring>
+                  <!-- Slides preenchidos via js/config.js (fotos em images/) -->
+                </div>
+              </div>
+              <div class="carousel-controls">
+                <button type="button" class="carousel-btn" data-carousel-prev aria-label="Slide anterior">
+                  ‹
+                </button>
+                <div class="carousel-dots" data-carousel-dots role="tablist" aria-label="Slides da fotografia"></div>
+                <button type="button" class="carousel-btn" data-carousel-next aria-label="Próximo slide">
+                  ›
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="sobre" aria-labelledby="sobre-titulo">
+        <div class="container about-grid">
+          <div class="about-copy reveal">
+            <p class="eyebrow">Quem sou</p>
+            <h2 id="sobre-titulo">Sobre mim</h2>
+            <p>
+              Tenho 15 anos e sou uma pessoa responsável, com pensamento lógico e muito proativa. Gosto de enxergar um problema, entender como ele funciona e ir atrás da solução, sem esperar que alguém me mostre o caminho.
+              Comecei a programar aos 11 anos, com Python, e desde então venho evoluindo aos poucos. Hoje trabalho com PHP, JavaScript, Python e Excel (VBA), e meu ponto forte é PHP com MySQLi, que uso para desenvolver sistemas como fluxo de caixa e controle de estoque.
+            </p>
+          </div>
+          <div class="about-panel reveal">
+            <ul class="focus-list">
+              <li>
+                <span class="focus-icon" aria-hidden="true">⟨/⟩</span>
+                <span>Responsabilidade</span>
+              </li>
+              <li>
+                <span class="focus-icon" aria-hidden="true">☰</span>
+                <span>Pensamento lógico</span>
+              </li>
+              <li>
+                <span class="focus-icon" aria-hidden="true">▣</span>
+                <span>Proatividade</span>
+              </li>
+              <li>
+                <span class="focus-icon" aria-hidden="true">⟳</span>
+                <span>Solução de problemas</span>
+              </li>
+              <li>
+                <span class="focus-icon" aria-hidden="true">✦</span>
+                <span>Aprendizado constante</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="habilidades" aria-labelledby="habilidades-titulo">
+        <div class="container">
+          <header class="section-head reveal">
+            <p class="eyebrow">Ferramentas</p>
+            <h2 id="habilidades-titulo">Conhecimentos e habilidades</h2>
+            <p>Tecnologias com as quais desenvolvo aplicações, organizo informações e construo soluções.</p>
+          </header>
+          <div class="cards-grid">
+            <article class="skill-card reveal">
+              <img src="images/tech/javascript.svg" alt="Logotipo JavaScript" width="64" height="64" />
+              <h3>JavaScript</h3>
+              <p>Desenvolvimento de aplicações e funcionalidades interativas, utilizando lógica de programação, manipulação de elementos, eventos, validações e criação de interfaces dinâmicas.</p>
+            </article>
+            <article class="skill-card reveal">
+              <img src="images/tech/php.svg" alt="Logotipo PHP" width="64" height="64" />
+              <h3>PHP</h3>
+              <p>Desenvolvimento de aplicações web, processamento de informações, formulários, funcionalidades de sistemas e integração com bancos de dados.</p>
+            </article>
+            <article class="skill-card reveal">
+              <img src="images/tech/python.svg" alt="Logotipo Python" width="64" height="64" />
+              <h3>Python</h3>
+              <p>Desenvolvimento de aplicações, automações, processamento de informações e criação de soluções utilizando lógica de programação.</p>
+            </article>
+            <article class="skill-card reveal">
+              <img src="images/tech/excel.svg" alt="Logotipo Excel" width="64" height="64" />
+              <h3>Excel</h3>
+              <p>Criação e organização de planilhas, utilização de fórmulas e funções, cálculos, tabelas, organização de informações e desenvolvimento de soluções para facilitar processos.</p>
+            </article>
+            <article class="skill-card reveal">
+              <img src="images/tech/MYSQLI.svg" alt="Logotipo MySQLi" width="64" height="64" />
+              <h3>MySQLi</h3>
+              <p>Criação e gerenciamento de bancos de dados relacionais, organização de informações, consultas, tabelas, relacionamentos e integração com aplicações.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-alt" id="contato" aria-labelledby="contato-titulo">
+        <div class="container contact-copy reveal">
+          <p class="eyebrow">Contato</p>
+          <h2 id="contato-titulo">Vamos conversar?</h2>
+          <p>Estou aberto a oportunidades, projetos e novos desafios na área de Tecnologia da Informação. Escolha abaixo como prefere entrar em contato:</p>
+          <div class="direct-contacts">
+            <a class="btn btn-primary btn-contact" data-link="whatsapp" href="https://wa.me/5515991276630?text=Ol%C3%A1%20Gustavo%2C%20vim%20pelo%20seu%20portf%C3%B3lio%20e%20gostaria%20de%20conversar." target="_blank" rel="noopener noreferrer">
+              <span aria-hidden="true">💬</span>
+              <div>
+                <strong>WhatsApp</strong>
+                <small>Enviar mensagem direta</small>
+              </div>
+            </a>
+            <a class="btn btn-ghost btn-contact" data-link="email" href="mailto:gustavocmservicossolucoes@gmail.com">
+              <span aria-hidden="true">✉️</span>
+              <div>
+                <strong>E-mail</strong>
+                <small>gustavocmservicossolucoes@gmail.com</small>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <p class="footer-name">Gustavo Henrique</p>
+          <p>Desenvolvimento de Software | Tecnologia da Informação</p>
+        </div>
+        <nav class="footer-links" aria-label="Redes sociais e contato no rodapé">
+          <a data-link="instagram" href="https://instagram.com/SEU_USUARIO_INSTAGRAM" target="_blank" rel="noopener noreferrer">Instagram</a>
+          <a data-link="whatsapp" href="https://wa.me/5515991276630" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+          <a data-link="email" href="mailto:gustavocmservicossolucoes@gmail.com">E-mail</a>
+        </nav>
+      </div>
+      <p class="copyright">© 2026 Gustavo Henrique. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="js/config.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
