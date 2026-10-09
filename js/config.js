@@ -13,24 +13,24 @@ window.PORTFOLIO_CONFIG = {
   photosFolder: "images/",
   photoExtensions: ["jpg", "jpeg", "png", "webp"],
 
-  photo: "Foto1",
-  photoAlt: "Fotografia de Gustavo Henrique",
+  photo: "foto1",
+  photoAlt: "",
 
   carouselSlides: [
     {
-      name: "Foto1",
+      name: "foto1",
       alt: "Fotografia de Gustavo Henrique — foto 1",
-      caption: "Apresentação",
+      caption: "",
     },
     {
       name: "foto2",
       alt: "Fotografia de Gustavo Henrique — foto 2",
-      caption: "Perfil profissional",
+      caption: "",
     },
     {
       name: "foto3",
       alt: "Fotografia de Gustavo Henrique — foto 3",
-      caption: "Disponível para oportunidades",
+      caption: "",
     },
   ],
 
