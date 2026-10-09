@@ -28,7 +28,7 @@ window.PORTFOLIO_CONFIG = {
       caption: "",
     },
     {
-      name: "foto6",
+      name: "foto3",
       alt: "Fotografia de Gustavo Henrique — foto 3",
       caption: "",
     },
